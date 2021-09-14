@@ -38,7 +38,7 @@ void player(char arr[ROW][COL], int row, int col){
         scanf("%d%d", &x, &y);
         if (x >= 1 && x <= row  &&  y >= 1 && y <= col)
         {
-            if (arr[x - 1][y - 1] = ' ')
+            if (arr[x - 1][y - 1] ==' ')
             {
                 arr[x - 1][y - 1] = '*';
                 break;
